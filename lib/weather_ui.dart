@@ -84,9 +84,7 @@ class WeatherUI extends StatelessWidget {
 
     return Scaffold(
       backgroundColor: Color(0xFF9AC8CD),
-      appBar: AppBar(
-        title: Text('Weather Forecast'),
-      ),
+
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         mainAxisSize: MainAxisSize.min,
