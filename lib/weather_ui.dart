@@ -84,7 +84,11 @@ class WeatherUI extends StatelessWidget {
 
     return Scaffold(
       backgroundColor: Color(0xFF9AC8CD),
-
+      appBar: AppBar(
+        backgroundColor: Color(0xFFBAC2FF),
+        title: Text("New York"),
+        centerTitle: true,
+      ),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         mainAxisSize: MainAxisSize.min,
